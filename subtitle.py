@@ -2,7 +2,7 @@ import os
 from win10toast import ToastNotifier
 
 # Generate a list of the srt and vid files in the directory
-srtlist = []
+srtlist = [] #To store the list of .srt files in the directory
 vidlist = []
 for file in os.listdir():
     if '.srt' in file:
