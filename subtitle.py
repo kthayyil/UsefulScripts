@@ -23,3 +23,5 @@ toaster = ToastNotifier()
 toaster.show_toast("Enjoy the binge!",
                    str(changeCount) +    " subtitle files were renamed",
                    duration = 1.5)
+
+# More comments here cause why not
