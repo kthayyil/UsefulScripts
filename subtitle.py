@@ -1,5 +1,5 @@
 import os
-from win10toast import ToastNotifier
+# from win10toast import ToastNotifier
 
 # Generate a list of the srt and vid files in the directory
 srtlist = [] #To store the list of .srt files in the directory
@@ -19,9 +19,9 @@ for srt, vid in zip(srtlist,vidlist):
     changeCount += 1
 
 # Display a tost notification to let the user know what happened
-toaster = ToastNotifier()
-toaster.show_toast("Enjoy the binge!",
-                   str(changeCount) +    " subtitle files were renamed",
-                   duration = 1.5)
+# toaster = ToastNotifier()
+# toaster.show_toast("Enjoy the binge!",
+#                    str(changeCount) +    " subtitle files were renamed",
+#                    duration = 1.5)
 
 # More comments here cause why not
